@@ -10,13 +10,13 @@
 
 2. loss trace 그래프는 다음과 같다. 
 
-   <img src="images/xor_loss.png" width=500/>
+   <img src="images/xor_loss.png" width=400/>
 
 <br>
 
 3. Iteration 횟수는 4000, learning rate는 0.1로 4번의 학습 결과를 출력했다. 
 
-   <img src="images/final_loss.png" width=700/>
+   <img src="images/final_loss.png" width=500/>
 
    같은 조건으로 학습을 해도 최종 loss는 조금씩 다르다. 랜덤한 숫자로 initialize 하기 때문에 학습이 반복되면서 최종 결과 값은 비슷해 지지만 완전히 같은 값이 나오지는 않는것을 확인할 수 있다.
 
@@ -40,7 +40,7 @@
 
 ## CNN Implementation from Scratch - MNIST dataset
 
-<img src="images/mnist.png" width=700/>
+<img src="images/mnist.png" width=500/>
 
 
 
@@ -48,11 +48,11 @@
 
 Hyperparameter를 변경하기 이전 학습 결과는 다음과 같다. Epoch 1000번을 돌아 최종적으로 training loss는 약 5.62, test loss는 약 0.19가 출력된 것을 확인할 수 있다. 
 
-<img src="images/rnn1.png" width=700/>
+<img src="images/rnn1.png" width=500/>
 
 Learning rate를 1e-3으로 변경 후 학습 결과는 다음과 같다. 
 
-<img src="images/rnn2.png" width=700/>
+<img src="images/rnn2.png" width=500/>
 
 
 
@@ -86,7 +86,7 @@ Toy model을 위와 같은 파라미터로 학습시킨다.
 
 학습이 반복되면서 loss는 점점 감소해 최종 loss는 약 0.017이 되었고, iteration마다 loss를 누적하여 기록한 loss_history를 출력한 결과이다. 
 
-<img src="images/cifar_loss.png" width=500/>
+<img src="images/cifar_loss.png" width=400/>
 
 
 
@@ -122,7 +122,7 @@ learning rate 3개, regularization strength 3개에 대해 for문을 돌렸기 �
 
 best_net의 출력 결과는 다음과 같다. 
 
-<img src="images/cifar_hyper3.png" width=500/>
+<img src="images/cifar_hyper3.png" width=400/>
 
 
 
